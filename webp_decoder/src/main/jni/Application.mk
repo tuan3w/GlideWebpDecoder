@@ -7,7 +7,7 @@ NDK_MODULE_PATH := $(APP_MK_DIR)
 
 APP_OPTIM := release
 
-APP_STL := gnustl_static
+APP_STL := c++_static
 
 # Make sure every shared lib includes a .note.gnu.build-id header
 #APP_LDFLAGS := -Wl,--build-id
